@@ -276,7 +276,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/html-bg.jpeg") top right no-repeat;
+    background: url("https://github.com/kale1st/images/blob/main/html-bg.jpeg?raw=true") top right no-repeat;
     background-size: cover;
     position: relative;
     opacity: 1;

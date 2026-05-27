@@ -66,7 +66,7 @@ export class ArticleComponent {
           title: 'Spring Security Without WebSecurity ConfigurerAdapter',
           preview: `In the world of securing Java applications, Spring Security acts as a strong protector, making sure that applications are safe from threats and unauthorized use...          
           `,
-          imgUrl: '../../assets/img/articles/html-system-website-concept.jpg',
+          imgUrl: 'https://github.com/kale1st/myresume/blob/master/src/assets/img/articles/html-system-website-concept.jpg?raw=true',
           url: 'https://medium.com/javarevisited/spring-security-without-websecurityconfigureradapter-c712b81cc6ed',
         },
       ],
