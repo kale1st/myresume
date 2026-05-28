@@ -12,4 +12,4 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /usr/src/app/dist/myresume /usr/share/nginx/html
 
 EXPOSE 80
-CMD ["ng", "serve", "--host", "0.0.0.0", "--port", "4200"]
+CMD ["nginx", "-g", "daemon off;"]
