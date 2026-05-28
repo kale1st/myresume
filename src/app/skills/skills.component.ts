@@ -63,7 +63,7 @@ export class SkillsComponent implements OnInit {
 
     this.progressBars = [
       { width: '80%', color: 'dogerblue', lang: 'German' },
-      { width: '70%', color: 'dogerblue', lang: 'English' },
+      { width: '80%', color: 'dogerblue', lang: 'English' },
       { width: '100%', color: 'dogerblue', lang: 'Turkish' }
     ];
   }
