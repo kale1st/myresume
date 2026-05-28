@@ -26,6 +26,8 @@ export class SkillsComponent implements OnInit {
           "https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html&logoColor=white",
           "https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white"],
         "backend": [
+          "https://img.shields.io/badge/.NET-512BD4",
+          "https://img.shields.io/badge/EF_Core-512BD4",
           "https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white",
           "https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB",
           "https://img.shields.io/badge/-GraphQL-E10098?logo=graphql&logoColor=white",
@@ -63,7 +65,7 @@ export class SkillsComponent implements OnInit {
 
     this.progressBars = [
       { width: '80%', color: 'dogerblue', lang: 'German' },
-      { width: '70%', color: 'dogerblue', lang: 'English' },
+      { width: '80%', color: 'dogerblue', lang: 'English' },
       { width: '100%', color: 'dogerblue', lang: 'Turkish' }
     ];
   }
