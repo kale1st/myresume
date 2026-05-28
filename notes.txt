@@ -1,2 +1,6 @@
+git clone -b branch_adi https://github.com/KULLANICI/REPO.git
 docker build -t myresume .
-docker run -d -p 4200:80 --name myresume myresume
+docker run -d \
+-p 127.0.0.1:4200:80 \
+--name myresume \
+myresume
